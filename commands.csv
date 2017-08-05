@@ -1,0 +1,7 @@
+SUM,4,4
+MULT,4,4
+DIV,100,3
+SUB,123.45,65.4321
+CONT,Соединение,строки
+MERGE,File1.txt,File2.txt
+SOMECOMMAND,,
