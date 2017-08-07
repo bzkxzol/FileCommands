@@ -13,7 +13,7 @@ public class Main extends Setup{
             if (line == null)
                 break;
             data = line.split (",");
-            for (int i = 0; i < data.length; i++) {
+            for (int i = 0; i < data.length; i+=3) {
                 switch (data[i]) {
                     case "SUM": {
                         double result = Double.parseDouble (data[i + 1]) + Double.parseDouble (data[i + 2]);
@@ -45,7 +45,7 @@ public class Main extends Setup{
                         break;
                     }
                     default:
-
+                        System.out.println("Ошибка/Команда не найдена - " + data[i]);
                         break;
                 }
             }
